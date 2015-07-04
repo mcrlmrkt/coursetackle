@@ -1,0 +1,95 @@
+<html>
+<head>
+	<meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,400,300' rel='stylesheet' type='text/css'>
+	<script src="ct.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <title>CourseTackle</title>
+</head>
+<header>
+	<div id="navigation">
+		<span id="title" width="10%">
+			CourseTackle
+		</span>
+		<span class="links">
+			<a href="">home</a>
+		</span>
+		<span class="links">
+			<button onclick="profile()">profile</button>
+		</span>
+		<span class="links">
+			<button onclick="courses()">courses</button>
+		</span>
+		<span class="search">
+			<textarea id="search_bar" onclick="this.focus();this.select()">search...</textarea>
+		</span>
+	</div>
+</header>
+<body>
+	<div id="left_panel" class="main">
+		<span id="display_pic">
+			<img src="http://36.media.tumblr.com/90deca3f70dd8857eecf0af410d3c784/tumblr_mpztob8maD1s5tlmxo1_500.png">
+		</span>
+		<span id="username">homerpoop</span>
+		<span id="name">Homer Simpson</span>
+		<span id="email">simpson@mail.utoronto.ca</span>
+		<span id="friends">friends:</span>
+	</div>
+	<div id="news_feed" class="main">
+		<h4>news</h4>
+		<span class="news post">
+			<table>
+				<tr>
+					<td class="news_content">
+						news
+					</td>
+					<td class="rating">
+						4
+					</td>
+				</tr>
+			</table>
+		</span>
+		<span class="news post">
+			<table>
+				<tr>
+					<td class="news_content">
+						news
+					</td>
+					<td class="rating">
+						3
+					</td>
+				</tr>
+			</table>
+		</span>
+		<span class="news post">
+			<table>
+				<tr>
+					<td class="news_content">
+						news
+					</td>
+					<td class="rating">
+						1
+					</td>
+				</tr>
+			</table>
+		</span>
+	</div>
+	<div id="wall" class="main">
+		<h4>wall</h4>
+		<span class="wall_post post">
+			user comments
+		</span><span class="wall_post post">
+			user comments
+		</span>
+	</div>
+	<div id="courses" class="main">
+		<h4>courses</h4>
+		<span id="taken" class="post">
+			courses you've taken
+		</span><span id="to_take" class="post">
+			courses you will take
+		</span>
+	</div>
+</body>
+</html>
