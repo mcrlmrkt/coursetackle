@@ -38,8 +38,23 @@ textarea{
 	margin:1%;
 	padding: 0;
 }
+input{
+	background: white;
+	border-radius: 10px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 2vw;
+	color: #BEB5B3;
+	height: 3vw;
+	overflow: hidden;
+	border: 1px solid black;
+	width: 20%;
+	margin:1%;
+	padding: 0;
+}
 button{
 	background: #1A2E2F;
+	padding: 0.5%;
 	font-weight: 100;
 	font-size: 1.5vw;
 	border: none;

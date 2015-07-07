@@ -12,3 +12,8 @@ function courses() {
     document.getElementById("wall").style.display = "none";
     document.getElementById("courses").style.display = "inline-block";
 }
+function home() {
+    document.getElementById("news_feed").style.display = "inline-block";
+    document.getElementById("wall").style.display = "none";
+    document.getElementById("courses").style.display = "none";
+}
