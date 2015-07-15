@@ -4,6 +4,7 @@
     <link rel="stylesheet" type="text/css" href="homestyle.css">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,400,300' rel='stylesheet' type='text/css'>
 	<script src="ct.js"></script>
+	<script src="signup.js"></script>
     <title>CourseTackle - Log In</title>
 </head>
 <header>
@@ -23,27 +24,27 @@
 	</div>
 	<div id="home_signup">
 		username:
-		<span id="signup_username">
-			<textarea onclick="this.focus();this.select()"></textarea>
+		<span>
+			<input id="signup_username" type="text" maxlength="10" onclick="this.focus();this.select()"/>
 		</span>
 		password:
-		<span id="signup_password">
-			<textarea onclick="this.focus();this.select()"></textarea>
+		<span>
+			<input  id="signup_password" type="password" onclick="this.focus();this.select()"/>
 		</span>
 		first name:
-		<span id="signup_password">
-			<textarea onclick="this.focus();this.select()"></textarea>
+		<span>
+			<input id="signup_first" type="text" maxlength="20" onclick="this.focus();this.select()"/>
 		</span>
 		last name:
-		<span id="signup_password">
-			<textarea onclick="this.focus();this.select()"></textarea>
+		<span>
+			<input id="signup_last" type="text" maxlength="20" onclick="this.focus();this.select()"/>
 		</span>
 		e-mail:
-		<span id="signup_password">
-			<textarea onclick="this.focus();this.select()"></textarea>
+		<span>
+			<input id="signup_email" type="text" maxlength="20" onclick="this.focus();this.select()"/>@mail.utoronto.ca
 		</span>
 		<span id="login_submit">
-			<button>Sign up</button>
+			<button onclick="new_account()">Sign up</button>
 			<br><Br><br>
 		</span>
 	</div>

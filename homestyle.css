@@ -43,13 +43,14 @@ input{
 	border-radius: 10px;
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
-	font-size: 2vw;
+	font-size: 1.5vw;
 	color: #BEB5B3;
-	height: 3vw;
+	height: 2.5vw;
 	overflow: hidden;
 	border: 1px solid black;
 	width: 20%;
 	margin:1%;
+	margin-top: 0;
 	padding: 0;
 }
 button{
@@ -73,4 +74,7 @@ button:hover{
 
 #home_signup textarea{
 	margin-top: 0;
+}
+#signup_email input {
+	width: 10%;
 }
