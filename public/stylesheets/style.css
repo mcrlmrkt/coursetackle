@@ -88,7 +88,7 @@ a:hover{
 	font-weight: 300;
 	color: #FFA300;
 }
-#username{
+#username_display{
 	font-size: 2.5vw;
 	color: white;
 }
@@ -127,4 +127,41 @@ a:hover{
 #courses{
 	width: 65%;
 	display: none;
+}
+#wall_entry{
+	background: none;
+	border: none;
+	border-bottom: 1px solid black;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 1.5vw;
+	color: black;
+	height: 2.5vw;
+	width: 75%;
+	margin:2%;
+}
+#wall_submit{
+	background: #1A2E2F;
+	padding: 0.5%;
+	font-weight: 100;
+	font-size: 1.5vw;
+	border: none;
+	color:white;
+	width: 10%;
+	border-radius: 10px;
+	font-family: 'Lato', sans-serif;
+}
+#wall_submit:hover{
+	background: #FFA300;
+}
+.add{
+	color:#FFA300;
+	font-size: 7vw;
+	padding:0;
+	margin: 0;	
+	float:right;
+}
+.add:hover{
+	color:black;
+	cursor: pointer;
 }

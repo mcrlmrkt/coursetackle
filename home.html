@@ -2,7 +2,7 @@
 <head>
 	<meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="homestyle.css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:100,400,300" rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,400,300' rel='stylesheet' type='text/css'>
 	<script src="ct.js"></script>
 	<script src="signup.js"></script>
     <title>CourseTackle - Log In</title>
@@ -39,12 +39,16 @@
 		<span>
 			<input id="signup_last" type="text" maxlength="20" onclick="this.focus();this.select()"/>
 		</span>
+		field of study:
+		<span>
+			<input id="signup_field" type="text" onclick="this.focus();this.select()"/>
+		</span>
 		e-mail:
 		<span>
 			<input id="signup_email" type="text" maxlength="20" onclick="this.focus();this.select()"/>@mail.utoronto.ca
 		</span>
 		<span id="login_submit">
-			<button onclick="new_account()">Sign up</button>
+			<button onclick="new_user()">Sign up</button>
 			<br><Br><br>
 		</span>
 	</div>
