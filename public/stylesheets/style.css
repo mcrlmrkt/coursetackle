@@ -38,7 +38,7 @@ body{
 	border: none;
 }
 #navigation button:hover{
-	color:#B97800 ;
+	color: #B97800;
 	cursor: pointer;
 }
 .links{
@@ -51,15 +51,15 @@ body{
 	font-weight: 300;
 }
 a:link{
-	color:black;
+	color:#FFA300;
 	text-decoration: none;
 }
 a:visited{
-	color:black;
+	color:#FFA300;
 	text-decoration: none;
 }
 a:hover{
-	color:#FFA300;
+	color:#B97800;
 	text-decoration: none;
 }
 #search_bar{
@@ -122,11 +122,9 @@ a:hover{
 }
 #wall{
 	width: 65%;
-	display: none;
 }
 #courses{
 	width: 65%;
-	display: none;
 }
 #wall_entry{
 	background: none;
@@ -164,4 +162,10 @@ a:hover{
 .add:hover{
 	color:black;
 	cursor: pointer;
+}
+li{
+	list-style: none;
+}
+ul{
+	display: none;
 }
