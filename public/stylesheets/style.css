@@ -30,7 +30,7 @@ body{
 	padding: 1%;
 }
 #navigation button{
-	color:black;
+	color:#FFA300;
 	background: #2E3F45;
 	font-family: 'Lato', sans-serif;
 	font-weight: 100;
@@ -38,7 +38,7 @@ body{
 	border: none;
 }
 #navigation button:hover{
-	color: #FFA300;
+	color:#B97800 ;
 	cursor: pointer;
 }
 .links{
