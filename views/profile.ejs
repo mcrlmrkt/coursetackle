@@ -13,27 +13,25 @@
 			CourseTackle
 		</span>
 		<span class="links">
-			<button onclick="home()">home</button>
+			<a href='/newsfeed'>home</a>
 		</span>
 		<span class="links">
-			<button onclick="profile()">profile</button>
+			<a href='/profile'>profile</a>
 		</span>
 		<span class="links">
-			<button onclick="courses()">courses</button>
+			<a href='/course'>courses</a>
 		</span>
 		<span class="search">
 			<textarea id="search_bar" onclick="this.focus();this.select()">search...</textarea>
 		</span>
 		<span class="links">
-			<a href="/">
-			<button>sign out</button></a>
+			<a href='/'>sign out</a>
 		</span>
 	</div>
 </header>
 <body>
 	<div id="left_panel" class="main" onload="setup_profile()">
 		<span id="display_pic">
-			<input type="file" onchange="previewFile()"><br>
 			<img src="/images/default.jpg" id="dp">
 		</span>
 		<span id="username_display">default</span>
@@ -41,45 +39,6 @@
 		<span id="email_display">default</span>
 		<span id="feild_display">default</span>
 		<span id="friends">friends:</span>
-	</div>
-	<div id="news_feed" class="main">
-		<h4>news</h4>
-		<span class="news post">
-			<table>
-				<tr>
-					<td class="news_content">
-						news
-					</td>
-					<td class="rating">
-						4
-					</td>
-				</tr>
-			</table>
-		</span>
-		<span class="news post">
-			<table>
-				<tr>
-					<td class="news_content">
-						news
-					</td>
-					<td class="rating">
-						3
-					</td>
-				</tr>
-			</table>
-		</span>
-		<span class="news post">
-			<table>
-				<tr>
-					<td class="news_content">
-						news
-					</td>
-					<td class="rating">
-						1
-					</td>
-				</tr>
-			</table>
-		</span>
 	</div>
 	<div id="wall" class="main">
 		<h4>wall</h4>
