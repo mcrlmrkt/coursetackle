@@ -163,6 +163,7 @@ a:hover{
 	color:black;
 	cursor: pointer;
 }
+<<<<<<< Updated upstream
 li{
 	list-style: none;
 }
@@ -171,5 +172,11 @@ ul{
 <<<<<<< Updated upstream
 }
 =======
+}
+>>>>>>> Stashed changes
+=======
+
+dropdown {
+	position: absolute;
 }
 >>>>>>> Stashed changes
