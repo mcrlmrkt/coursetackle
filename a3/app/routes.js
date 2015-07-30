@@ -25,7 +25,7 @@ module.exports = function(app, passport){
 		res.render('profile.ejs', { user: req.user})
 	});
 
-	app.get('/:username/:password', function(req, res){
+	/*app.get('/:username/:password', function(req, res){
 		var newUser = new User();
 		newUser.local.username = req.params.username;
 		newUser.local.password = req.params.password;
@@ -34,8 +34,9 @@ module.exports = function(app, passport){
 			if(err)
 				throw err;
 		});
-		res.send("Success!");
-	});
+		//res.send("Success!");
+
+	});*/
 
 	app.get('/logout', function(req, res){
 		req.logout();
