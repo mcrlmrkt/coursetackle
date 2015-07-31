@@ -5,7 +5,7 @@ module.exports = function(app, passport){
 	});
 
 	app.post('/', passport.authenticate('local-login', {
-		successRedirect: '/profile',
+		successRedirect: '/newsfeed',
 		failureRedirect: '/',
 		failureFlash: true
 	}));
@@ -16,7 +16,7 @@ module.exports = function(app, passport){
 
 	//when submit, going to post to our server
 	app.post('/signup', passport.authenticate('local-signup', {
-		succesRedirect: '/profile',
+		succesRedirect: '/newsfeed',
 		failureRedirect: '/signup',
 		failureFlash: true
 	}));
@@ -24,6 +24,14 @@ module.exports = function(app, passport){
 	app.get('/profile', isLoggedIn, function(req, res){
 		res.render('profile.ejs', { user: req.user})
 	});
+
+	app.get('/newsfeed', function(req, res){
+		res.render('newsfeed.ejs')
+	});
+
+	app.get('/course', isLoggedIn, function(req, res){
+		res.render('course.ejs', { user: req.user})
+	})
 
 	app.get('/logout', function(req, res){
 		req.logout();

@@ -28,7 +28,7 @@ module.exports = function(passport) {
 		firstName, lastName, field, email, done){
 		process.nextTick(function(){
 			//look up in db where username matches the username
-			User.findOne({'local.username': sign_username}, function(err, user){
+			User.findOne({'local.username': username}, function(err, user){
 				if(err)
 					return done(err);
 				if(user){ //don't want to reregister the user
@@ -58,7 +58,7 @@ module.exports = function(passport) {
 			passwordField: 'password',
 			passReqToCallback: true
 		},
-		function(req, email, password, done){
+		function(req, username, password, firstName, lastName, field, email, done){
 			process.nextTick(function(){
 				User.findOne({ 'local.username': username}, function(err, user){
 					if(err)
