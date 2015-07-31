@@ -30,7 +30,7 @@ body{
 	padding: 1%;
 }
 #navigation button{
-	color:#FFA300;
+	color:black;
 	background: #2E3F45;
 	font-family: 'Lato', sans-serif;
 	font-weight: 100;
@@ -38,7 +38,7 @@ body{
 	border: none;
 }
 #navigation button:hover{
-	color: #B97800;
+	color: #FFA300;
 	cursor: pointer;
 }
 .links{
@@ -51,15 +51,15 @@ body{
 	font-weight: 300;
 }
 a:link{
-	color:#FFA300;
+	color:black;
 	text-decoration: none;
 }
 a:visited{
-	color:#FFA300;
+	color:black;
 	text-decoration: none;
 }
 a:hover{
-	color:#B97800;
+	color:#FFA300;
 	text-decoration: none;
 }
 #search_bar{
@@ -122,9 +122,11 @@ a:hover{
 }
 #wall{
 	width: 65%;
+	display: none;
 }
 #courses{
 	width: 65%;
+	display: none;
 }
 #wall_entry{
 	background: none;
@@ -163,20 +165,3 @@ a:hover{
 	color:black;
 	cursor: pointer;
 }
-<<<<<<< Updated upstream
-li{
-	list-style: none;
-}
-ul{
-	display: none;
-<<<<<<< Updated upstream
-}
-=======
-}
->>>>>>> Stashed changes
-=======
-
-dropdown {
-	position: absolute;
-}
->>>>>>> Stashed changes

@@ -24,6 +24,18 @@ header{
 span{
     display: block;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    color:#FFA300;
+    text-decoration: none;
+}
 textarea{
     background: white;
     border-radius: 10px;
@@ -66,11 +78,13 @@ button{
 button:hover{
     background: #FFA300;
 }
+button:visited{
+    text-decoration: none;
+}
 #home_signup{
     font-size: 1.3vw;
 
 }
-
 #home_signup textarea{
     margin-top: 0;
 }
